@@ -1,0 +1,19 @@
+Run the project to see how it works.
+
+Create slider:
+CCSlider *_slider = [CCSlider sliderWithTrackImage:@"slider_track.png" knobImage:@"slider_knob.png" target:self selector:@selector(scaleChanged:)];
+_slider.position = ccp(240,160);
+_slider.rotation = -30;
+_slider.height = 100;
+_slider.horizontalPadding = 50;
+_slider.trackTouchOutsideContent = YES;
+_slider.evaluateFirstTouch = NO;
+_slider.minValue = .5;
+_slider.maxValue = 1;
+_slider.value = .5;
+[self addChild:_slider];
+
+Slider value changed callback:
+- (void) scaleChanged:(CCSlider *) slider{
+	bg.scale = slider.value;
+}
