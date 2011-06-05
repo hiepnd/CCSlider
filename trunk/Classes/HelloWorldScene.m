@@ -50,8 +50,8 @@
 		[self addChild: label];
 		
 		CCSlider *_slider = [CCSlider sliderWithTrackImage:@"slider_track.png" knobImage:@"slider_knob.png" target:self selector:@selector(scaleChanged:)];
-		_slider.position = ccp(240,160);
-		_slider.rotation = -30;
+		_slider.position = ccp(450,160);
+		_slider.rotation = -90;
 		_slider.height = 100;
 		_slider.horizontalPadding = 50;
 		_slider.trackTouchOutsideContent = YES;
