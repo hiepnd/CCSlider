@@ -1305,6 +1305,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = CCSlider;
+				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
@@ -1327,6 +1328,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = CCSlider;
+				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Release;
